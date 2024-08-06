@@ -1,0 +1,94 @@
+@font-face {
+    font-family: new1;
+    src: url(../img/hanging_letters/Hanged\ Letters.ttf);
+}
+
+/* ================================================================= */
+
+.production{
+    /* background-color: red; */
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-50px);
+    text-align: center;
+}
+.newprodect{
+    font-family: new1;
+}
+.btn1{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    background-color: rgb(255, 10, 90);
+    border-radius: 10px;
+    color: white;
+    width: 13vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50px);
+}
+/* .slider{
+    position: relative;
+}
+.slider1{
+    width: 15vw;
+    height: 30vh;
+    background-color: red;
+    position: absolute;
+    left: 20%;
+}
+.slider2{
+    width: 15vw;
+    height: 30vh;
+    background-color: red;
+    position: absolute;
+    left: 40%;
+}
+.slider3{
+    position: absolute;
+    width: 15vw;
+    height: 30vh;
+    background-color: red;
+}
+.slider4{
+    position: absolute;
+    width: 15vw;
+    height: 30vh;
+    background-color: red;
+}
+.slider5{
+    position: absolute;
+    width: 15vw;
+    height: 30vh;
+    background-color: red;
+} */
+
+.sliderscroll {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sliderscroll img {
+    width: 18vw;
+    height: 30vh;
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between images */
+    animation: scroll 10s linear infinite;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.empty{
+    display: flex;
+    /* align-items: center; */
+    padding-top: 80px;
+    padding-left: 100px;
+    flex-direction: column;
+    gap: 100px;
+    overflow: scroll;
+    width: 50vw;
+    height: 60vh;
+    border-top-right-radius: 40vw;
+    border-top-left-radius: 20vw;
+}
+.hidden{
+    width: 33vw;
+    height: 24vh;
+    background-color: red;
+}
+.slide1{
+    border-radius: 50px;
+    width: 28vw;
+    min-height: 20vh;
+    max-height: auto;
+    background-color: green;
+}
+.slide2{
+    border-radius: 50px;
+    width: 28vw;
+    min-height: 20vh;
+    max-height: auto;
+    background-color: green;
+}
+.slide3{
+    border-radius: 50px;
+    width: 28vw;
+    min-height: 20vh;
+    max-height: auto;
+    background-color: green;
+}
+.slide4{
+    border-radius: 50px;
+    width: 28vw;
+    min-height: 20vh;
+    max-height: auto;
+    background-color: green;
+}
+.Swiper{
+    width: 50vw;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.jacket{
+    width: 150vw;
+}
+.headphone{
+    width: 40vw;
+    margin-left: 60px;
+    margin-top: 60px;
+}
